@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+:root {
+    --container-size: 90vh
+}
+.grid {
+    background-color: aquamarine;
+    /* padding: 20px; */
+    /* margin: 8px; */
+    height: 100px;
+    width: 100px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: stretch;
+    align-content: stretch;
+    flex-wrap: wrap; */
+    background-color: beige;
+    height: var(--container-size);
+    width: var(--container-size);
+    padding: 2.5vh;
+    margin: 2.5vh;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
